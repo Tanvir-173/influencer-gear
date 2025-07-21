@@ -188,9 +188,19 @@ nav{
        
     }
     .banner-image{
+       width:300px;
+       height:300px;
+       background-size:cover;
+       display:flex;
+       justify-content:center;
+       align-items:center;
       
-       width:100%;
+    }
 
+    .banner-image img{
+       width:202px;
+       height:190px;
+     
     }
     .banner-content{
         text-align:center;
@@ -244,6 +254,14 @@ nav{
     .company-logos{
         display:none;
     }
+    .image-of-logos-in-first-row img{
+        width:50px;
+        height:16px
+    }
+    .image-of-logos-in-second-row img{
+        width:50px;
+        height:16px
+    }
 
     .image-of-logos-in-first-row{
         display:flex;
@@ -260,9 +278,16 @@ nav{
          margin-top:20px;
 
     }
+   
+    }
 
     .company-logos-for-small-device{
-        margin-top: 55px;
+        
+        width:275px;
+        height:62px;
+        margin-top:100px;
+        margin-left:50px;
+        
     }
     
 }
@@ -294,7 +319,7 @@ nav{
 .card-top-text{
     font-size:28px;
     text-align: center;
-    margin-top:100px;
+    margin-top:50px;
     margin-bottom:30px;
     
 }
@@ -313,7 +338,7 @@ nav{
 
 .card-container{
     width:1200px;
-    margin:100px auto;
+    margin:50px auto;
 }
 
 .card-container-grid{
